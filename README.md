@@ -9,20 +9,40 @@
 The MASA-Core library is based on CUDAlign, that is a tool able to align huge sequences in CUDA capable GPUs. The MASA-Core contains 90% of the original CUDAlign source code, isolating the platform-independent features. Thus, any developer may create "aligners" for different hardware/software platforms, reimplementing only 10% (or even less) of the original code and linking it against the portable MASA-Core library. Furthermore, new platform-independet optimizations may be deployed into the MASA-Core, leading to a wider contribution to all the specific aligners implementations. Platform-specific aligners will be maintained in separate repositories, with a static copy of the masa-core source.
 </p>
 
+### Features:
+
 The MASA-Core contains the following main features:
-* Full Alignment for huge sequences;
+* Produces optimal alignments for DNA sequences of any length (even greater than 200 MBP);
+* Local, Semi-Global and Global alignment types;
 * Multi-node support for homogeneous [CCGRID2014] and heterogeneous hardware [PPOPP2014];
 * Block Pruning optimization [TPDS2012];
-* Local, Semi-Global and Global Alignments;
 * OpenMP support for parallel block processing;
 
 
 ---
 
-## References:
+### References:
 
-* [CCGRID2014] Edans Sandes, Guillermo Miranda, Alba Melo, Xavier Martorell, Eduard Ayguadé: CUDAlign 3.0: Parallel Biological Sequence Comparison in Large GPU Clusters. CCGRID 2014:160-169
-* [PPOPP2014]  Edans Sandes, Guillermo Miranda, Alba Melo, Xavier Martorell, Eduard Ayguadé: Fine-grain parallel megabase sequence comparison with multiple heterogeneous GPUs. PPOPP 2014:383-384
-* [TPDS2013]   Edans Sandes, Alba Melo: Retrieving Smith-Waterman Alignments with Optimizations for Megabase Biological Sequences using GPU. IEEE Transactions on Parallel and Distributed Systems, vol 24, issue 5, 1009-1021
-* [PPOPP2012]  Edans Sandes, Alba Melo: CUDAlign: using GPU to accelerate the comparison of megabase genomic sequences. PPOPP 2010: 137-146
-* [IPDPS2011]  Edans Sandes, Alba Melo: Smith-Waterman Alignment of Huge Sequences with GPU in Linear Space. IPDPS 2011: 1199-1211
+<table border="0">
+<tr>
+<td><a href="http://dx.doi.org/10.1109/CCGrid.2014.18"><font size=1>[CCGRID2014]</font></a></td>
+<td><sub>CUDAlign 3.0: Parallel Biological Sequence Comparison in Large GPU Clusters. CCGRID 2014:160-169. <br>Edans Sandes, Guillermo Miranda, Alba Melo, Xavier Martorell, Eduard Ayguadé.</sub>
+</td>
+</tr>
+<tr>
+<td><a href="http://dx.doi.org/10.1145/2555243.2555280"><font size=1>[PPOPP2014]</font></a></td>
+<td><sub>Fine-grain parallel megabase sequence comparison with multiple heterogeneous GPUs. PPOPP 2014:383-384<br>Edans Sandes, Guillermo Miranda, Alba Melo, Xavier Martorell, Eduard Ayguadé
+</sub></td>
+</tr>
+<tr>
+<td><a href="http://dx.doi.org/10.1109/TPDS.2012.194"><font size=1>[TPDS2013]</font></a></td>
+<td><sub>Retrieving Smith-Waterman Alignments with Optimizations for Megabase Biological Sequences using GPU. TPDS:24:5:1009-1021<br>Edans Sandes, Alba Melo</sub></td>
+</tr>
+<td><a href="http://dx.doi.org/10.1145/1693453.1693473"><font size=1>[PPOPP2012]</font></a></td>
+<td><sub>CUDAlign: using GPU to accelerate the comparison of megabase genomic sequences. PPOPP 2010: 137-146<br>Edans Sandes, Alba Melo</sub></td>
+</tr>
+<tr>
+<td><a href="http://dx.doi.org/10.1109/IPDPS.2011.114"><font size=1>[IPDPS2011]</font></a></td>
+<td><sub>Smith-Waterman Alignment of Huge Sequences with GPU in Linear Space. IPDPS 2011: 1199-1211<br>Edans Sandes, Alba Melo</sub></td>
+</tr>
+</table>

@@ -10,8 +10,8 @@ The MASA-Core library is based on CUDAlign, that is a tool able to align huge se
 </p>
 
 The MASA-Core contains the following main features:
-* Full Alignment for huge sequences (we successfully aligned sequences with more than 200 MBP);
-* Multi-node support [CCGRID2014] with heterogeneous platforms [PPOPP2014];
+* Full Alignment for huge sequences;
+* Multi-node support for homogeneous [CCGRID2014] and heterogeneous hardware [PPOPP2014];
 * Block Pruning optimization [TPDS2012];
 * Local, Semi-Global and Global Alignments;
 * OpenMP support for parallel block processing;

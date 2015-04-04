@@ -26,6 +26,10 @@ Each project that supplies a different Aligner linked with MASA-Core is called a
 * **MASA-OpenMP/CPU**: Uses OpenMP to execute many blocks in parallel using generic CPU cores.
 * **MASA-OpenMP/Phi**: Same as MASA-OpenMP/CPU, but uses the Intel Phi architecture.
 
+### License:
+
+MASA-Core is an open source project with public license (GPLv3). A copy of the [LICENSE](https://raw.githubusercontent.com/edanssandes/masa-core/master/LICENSE) is maintained in this repository. 
+
 ---
 
 ### References:

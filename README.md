@@ -18,6 +18,13 @@ The MASA-Core contains the following main features:
 * Block Pruning optimization [TPDS2012];
 * OpenMP support for parallel block processing;
 
+### Supported Platforms:
+
+Each project that supplies a different Aligner linked with MASA-Core is called a MASA-Extension. Here is a list with some MASA-Extensions for some supported platforms.
+* **MASA-CPU**: This is a simple extension that executes serially in CPU.
+* **MASA-CUDAlign**: Extension that uses CUDA NVidia GPUs (based on the original CUDAlign code) 
+* **MASA-OpenMP/CPU**: Uses OpenMP to execute many blocks in parallel using generic CPU cores.
+* **MASA-OpenMP/Phi**: Same as MASA-OpenMP/CPU, but uses the Intel Phi architecture.
 
 ---
 

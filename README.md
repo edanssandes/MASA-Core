@@ -1,6 +1,6 @@
 # MASA-Core
 <p align="justify">
-**Multi-Platform Architecture for Sequence Aligner (MASA)** is a flexible software framework that simplifies the creation of DNA sequence alignment applications in multiple hardware/software platforms. This framework supports the alignment of huge DNA sequences with more than 200 million base pairs (MBP). We intend to release its source code soon.
+<b>Multi-Platform Architecture for Sequence Aligner (MASA)</b> is a flexible software framework that simplifies the creation of DNA sequence alignment applications in multiple hardware/software platforms. This framework supports the alignment of huge DNA sequences with more than 200 million base pairs (MBP). We intend to release its source code soon.
 </p>
 
 <img src="https://raw.githubusercontent.com/edanssandes/masa-core/master/images/masa-core-puzzle.png" align="left" height="180" hspace="50">

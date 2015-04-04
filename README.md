@@ -1,7 +1,9 @@
 # MASA-Core
 **Multi-Platform Architecture for Sequence Aligner (MASA)** is a flexible software framework that simplifies the creation of DNA sequence alignment applications in multiple hardware/software platforms. This framework supports the alignment of huge DNA sequences with more than 200 million base pairs (MBP). We intend to release its source code soon.
 
-The MASA-Core library is based on CUDAlign, that is a tool able to align huge sequences in CUDA capable GPUs. The MASA-Core contains 90% of the original CUDAlign source code, with only the platform-independent features. Thus, any developer may create "aligners" for different hardware/software platforms, reimplementing only 10% (or less) of the platform-specific code and linking against the portable MASA-Core library. Furthermore, platform-independet optimizations in the MASA-Core can be applied to all the specific aligners implementation, leading to a wider contribution. Platform-specific aligners will be maintained in separate repositories, with a static copy of the masa-core.
+<img src="https://raw.githubusercontent.com/edanssandes/masa-core/master/images/masa-core-puzzle.png" align="left" height="180" hspace="50">
+
+The MASA-Core library is based on CUDAlign, that is a tool able to align huge sequences in CUDA capable GPUs. The MASA-Core contains 90% of the original CUDAlign source code, isolating the platform-independent features. Thus, any developer may create "aligners" for different hardware/software platforms, reimplementing only 10% (or less) of the platform-specific code and linking it against the portable MASA-Core library. Furthermore, new platform-independet optimizations may be deployed into the MASA-Core, leading to a wider contribution to all the specific aligners implementations. Platform-specific aligners will be maintained in separate repositories, with a static copy of the masa-core source.
 
 The MASA-Core contains the following main features:
 * Full Alignment for huge sequences (we successfully aligned sequences with more than 200 MBP);

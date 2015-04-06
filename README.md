@@ -16,7 +16,7 @@ The MASA-Core contains the following main features:
 * Local, Semi-Global and Global alignment types;
 * Multi-node support for homogeneous [CCGRID2014] and heterogeneous hardware [PPOPP2014];
 * Block Pruning optimization [TPDS2012];
-* OpenMP support for parallel block processing;
+* Portable C/C++ code. Compiled in Linux and MacOS X, for 32 and 64 bit platforms.
 
 ### Supported Platforms:
 

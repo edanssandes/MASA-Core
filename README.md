@@ -24,7 +24,7 @@ Each project that supplies a different Aligner linked with MASA-Core is called a
 * **MASA-Serial**: This is a simple extension that runs with serial CPU code.
 * **MASA-CUDAlign**: Extension that uses CUDA NVidia GPUs (based on the original CUDAlign code) 
 * **MASA-OpenMP**: Uses OpenMP to computes many blocks in parallel using CPU or Intel Phi cores.
-* **MASA-OmpSs**: Uses the OmpSs programming model to runs parallel tasks with data dependencies.
+* **MASA-OmpSs**: Uses the OmpSs programming model to run parallel tasks respecting dependencies.
 
 ### License:
 

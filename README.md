@@ -21,10 +21,10 @@ The MASA-Core contains the following main features:
 ### Supported Platforms:
 
 Each project that supplies a different Aligner linked with MASA-Core is called a MASA-Extension. Here is a list with some MASA-Extensions for some supported platforms.
-* **MASA-CPU**: This is a simple extension that executes serially in CPU.
+* **MASA-Serial**: This is a simple extension that runs with serial CPU code.
 * **MASA-CUDAlign**: Extension that uses CUDA NVidia GPUs (based on the original CUDAlign code) 
-* **MASA-OpenMP/CPU**: Uses OpenMP to execute many blocks in parallel using generic CPU cores.
-* **MASA-OpenMP/Phi**: Same as MASA-OpenMP/CPU, but uses the Intel Phi architecture.
+* **MASA-OpenMP**: Uses OpenMP to computes many blocks in parallel using CPU or Intel Phi cores.
+* **MASA-OmpSs**: Uses the OmpSs programming model to runs parallel tasks with data dependencies.
 
 ### License:
 

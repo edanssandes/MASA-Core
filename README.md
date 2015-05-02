@@ -6,7 +6,7 @@
 <img src="https://raw.githubusercontent.com/edanssandes/masa-core/master/images/masa-core-puzzle.png" align="left" height="180" hspace="50">
 
 <p align="justify">
-The MASA-Core library is based on CUDAlign, that is a tool able to align huge sequences in CUDA capable GPUs. The MASA-Core contains 90% of the original CUDAlign source code, isolating the platform-independent features. Thus, any developer may create "aligners" for different hardware/software platforms, reimplementing only some methods of the original code and linking it against the portable MASA-Core library. Furthermore, new platform-independet optimizations may be deployed into the MASA-Core, leading to a wider contribution to all the specific aligners implementations. Platform-specific aligners will be maintained in separate repositories, with a static copy of the masa-core source.
+The MASA-Core library is based on CUDAlign, a tool able to align huge sequences in CUDA capable GPUs. The MASA-Core contains 90% of the original CUDAlign source code, isolating the platform-independent features. Thus, any developer may create "aligners" for different hardware/software platforms, reimplementing only some methods of the original code and linking it against the portable MASA-Core library. Furthermore, new platform-independent optimizations may be deployed into the MASA-Core, leading to a wider contribution to all the specific aligners implementations. Platform-specific aligners will be maintained in separate repositories, with a static copy of the masa-core source.
 </p>
 
 ### Features:
@@ -55,7 +55,7 @@ MASA-Core is an open source project with public license (GPLv3). A copy of the [
 <td><a href="http://dx.doi.org/10.1109/TPDS.2012.194"><font size=1>[TPDS2013]</font></a></td>
 <td><sub>Retrieving Smith-Waterman Alignments with Optimizations for Megabase Biological Sequences using GPU. TPDS:24:5:1009-1021. Edans Sandes, Alba Melo</sub></td>
 </tr>
-<td><a href="http://dx.doi.org/10.1145/1693453.1693473"><font size=1>[PPOPP2012]</font></a></td>
+<td><a href="http://dx.doi.org/10.1145/1693453.1693473"><font size=1>[PPOPP2010]</font></a></td>
 <td><sub>CUDAlign: using GPU to accelerate the comparison of megabase genomic sequences. PPOPP 2010: 137-146. Edans Sandes, Alba Melo</sub></td>
 </tr>
 <tr>

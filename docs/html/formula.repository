@@ -1,0 +1,22 @@
+\form#0:\begin{eqnarray*} i' &=& |S_1|-j \\ j' &=& |S_0|-i \end{eqnarray*}
+\form#1:$|S_0|$
+\form#2:$|S_1|$
+\form#3:$m\times{}n$
+\form#4:$(bx,by)$
+\form#5:$(i0,j0)-(i1,j1)$
+\form#6:$-\infty$
+\form#7:\[ H_{i,j}=\max\{ 0, E_{i,j}, F_{i,j}, H_{i-1,j-1} - p(i,j) \} \]
+\form#8:$\{10,20,20,0\}$
+\form#9:$\frac{10}{50} = 20\%$
+\form#10:$\frac{20}{50} = 40\%$
+\form#11:$H$
+\form#12:$F$
+\form#13:\begin{eqnarray*}H_{0,0} &=& 0 \\ H_{k,0} &=& -k.G_{ext}-G_{open} \\ F_{k,0} &=& -\infty \end{eqnarray*}
+\form#14:\begin{eqnarray*}H_{k,0} &=& -k.G_{ext} \\ F_{k,0} &=& -\infty \end{eqnarray*}
+\form#15:\begin{eqnarray*}H_{k,0} &=& 0 \\ F_{k,0} &=& -\infty \end{eqnarray*}
+\form#16:\begin{eqnarray*}H_{0,0} &=& 0 \\ H_{0,k} &=& -k.G_{ext}-G_{open} \\ F_{0,k} &=& -\infty \end{eqnarray*}
+\form#17:\begin{eqnarray*}H_{0,k} &=& -k.G_{ext} \\ F_{0,k} &=& -\infty \end{eqnarray*}
+\form#18:\begin{eqnarray*}H_{0,k} &=& 0 \\ F_{0,k} &=& -\infty \end{eqnarray*}
+\form#19:$(H,F)$
+\form#20:$(H,E)$
+\form#21:$j1-j0$

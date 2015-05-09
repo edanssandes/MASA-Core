@@ -22,15 +22,38 @@ The MASA-Core contains the following main features:
 
 ### Download
 
-We intend to release the source code soon.
+Latest Version: [masa-core-1.3.9.1024.tar.gz](releases/masa-core-1.3.9.1024.tar.gz?raw=true)
+
+### Compiling the static library (libmasa.a)
+
+```
+tar -xvzf masa-core-1.3.9.1024.tar.gz
+cd masa-core-1.3.9.1024
+./configure
+make
+```
+To create MASA executable files, download one of the extensions listed below. Each extensions project contains a copy of the MASA-Core source.
+
 
 ### Supported Platforms:
 
 Each project that supplies a different Aligner linked with MASA-Core is called a MASA-Extension. Here is a list with some MASA-Extensions for some supported platforms.
-* [**MASA-Serial**](https://github.com/edanssandes/MASA-Serial): This is a simple extension that runs with serial CPU code.
 * [**MASA-CUDAlign**](https://github.com/edanssandes/MASA-CUDAlign): Extension that uses CUDA NVidia GPUs (based on the original CUDAlign code) 
 * [**MASA-OpenMP**](https://github.com/edanssandes/MASA-OpenMP): Uses OpenMP to computes many blocks in parallel using CPU or Intel Phi cores.
-* [**MASA-OmpSs**](https://github.com/edanssandes/MASA-OmpSs): Uses the OmpSs programming model to run parallel tasks respecting dependencies.
+* [**MASA-OmpSs**](https://github.com/edanssandes/MASA-OmpSs): Uses [OmpSs](https://pm.bsc.es/ompss) to run parallel tasks respecting dependencies.
+* [**MASA-Serial**](https://github.com/edanssandes/MASA-Serial): This is a simple extension that runs with serial CPU code.
+
+
+### Executing a MASA extension
+
+```
+./masa-extension [options] seq1.fasta seq2.fasta
+```
+All the command line arguments can be retrieved using the --help parameter. See the [wiki](https://github.com/edanssandes/MASA-Core/wiki/Command-line-examples) for a list of command line examples.
+
+### Documentation
+
+See the [doxygen](http://edanssandes.github.io/MASA-Core/docs) pages.
 
 ### License:
 

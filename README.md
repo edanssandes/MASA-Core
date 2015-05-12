@@ -14,7 +14,7 @@ The MASA-Core library is based on CUDAlign, a tool able to align huge sequences 
 The MASA-Core contains the following main features:
 * Produces optimal alignments for DNA sequences of any length (even greater than 200 MBP);
 * Based on Smith-Waterman and Needleman-Wunsch algorithms;
-* Uses Myers-Miller strategy during the matrix computation (linear memory complexity);
+* Uses Myers-Miller strategy during the matrix computation (linear memory complexity) [IPDPS2011];
 * Produces Local, Semi-Global and Global optimal alignments;
 * Multi-node support for homogeneous [CCGRID2014] and heterogeneous hardware [PPOPP2014];
 * Block Pruning optimization [TPDS2012];
@@ -77,12 +77,12 @@ MASA-Core is an open source project with public license (GPLv3). A copy of the [
 <tr>
 <td><a href="http://dx.doi.org/10.1109/TPDS.2012.194"><font size=1>[TPDS2013]</font></a></td>
 <td><sub>Retrieving Smith-Waterman Alignments with Optimizations for Megabase Biological Sequences using GPU. TPDS:24:5:1009-1021. Edans Sandes, Alba Melo</sub></td>
-</tr>
-<td><a href="http://dx.doi.org/10.1145/1693453.1693473"><font size=1>[PPOPP2010]</font></a></td>
-<td><sub>CUDAlign: using GPU to accelerate the comparison of megabase genomic sequences. PPOPP 2010: 137-146. Edans Sandes, Alba Melo</sub></td>
-</tr>
 <tr>
 <td><a href="http://dx.doi.org/10.1109/IPDPS.2011.114"><font size=1>[IPDPS2011]</font></a></td>
 <td><sub>Smith-Waterman Alignment of Huge Sequences with GPU in Linear Space. IPDPS 2011: 1199-1211. Edans Sandes, Alba Melo</sub></td>
+</tr>
+</tr>
+<td><a href="http://dx.doi.org/10.1145/1693453.1693473"><font size=1>[PPOPP2010]</font></a></td>
+<td><sub>CUDAlign: using GPU to accelerate the comparison of megabase genomic sequences. PPOPP 2010: 137-146. Edans Sandes, Alba Melo</sub></td>
 </tr>
 </table>

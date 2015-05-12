@@ -14,10 +14,10 @@ The MASA-Core library is based on CUDAlign, a tool able to align huge sequences 
 The MASA-Core contains the following main features:
 * Produces optimal alignments for DNA sequences of any length (even greater than 200 MBP)
 * Based on Smith-Waterman and Needleman-Wunsch algorithms
-* Uses Myers-Miller strategy during the matrix computation (linear memory complexity) <sup>[IPDPS2011](#references)</sup>
+* Uses Myers-Miller strategy during the matrix computation (linear memory complexity)<sup>[IPDPS2011](#references)</sup>
 * Produces Local, Semi-Global and Global optimal alignments
-* Multi-node support for homogeneous <sup>[CCGRID2014](#references)</sup> and heterogeneous hardware <sup>[PPOPP2014](#references)</sup>
-* Block Pruning optimization <sup>[TPDS2012](#references)</sup>
+* Multi-node support for homogeneous<sup>[CCGRID2014](#references)</sup> and heterogeneous hardware<sup>[PPOPP2014](#references)</sup>
+* Block Pruning optimization<sup>[TPDS2012](#references)</sup>
 * Portable C/C++ code. Compiled in Linux and MacOS X, for 32 and 64 bit platforms
 
 ### Download

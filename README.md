@@ -38,8 +38,8 @@ To create MASA executable files, download one of the extensions listed below. Ea
 ### Supported Platforms:
 
 Each project that supplies a different Aligner linked with MASA-Core is called a MASA-Extension. Here is a list with some MASA-Extensions for some supported platforms.
-* [**MASA-CUDAlign**](https://github.com/edanssandes/MASA-CUDAlign): Extension that uses CUDA NVidia GPUs (based on the original CUDAlign code) 
-* [**MASA-OpenMP**](https://github.com/edanssandes/MASA-OpenMP): Uses OpenMP to computes many blocks in parallel using CPU or Intel Phi cores.
+* [**MASA-CUDAlign**](https://github.com/edanssandes/MASA-CUDAlign): Extension that uses [CUDA](http://www.nvidia.com/object/cuda_home_new.html) NVidia GPUs (based on the original CUDAlign code) 
+* [**MASA-OpenMP**](https://github.com/edanssandes/MASA-OpenMP): Uses [OpenMP](http://openmp.org/) to computes many blocks in parallel using CPU or Intel Phi cores.
 * [**MASA-OmpSs**](https://github.com/edanssandes/MASA-OmpSs): Uses [OmpSs](https://pm.bsc.es/ompss) to run parallel tasks respecting dependencies.
 * [**MASA-Serial**](https://github.com/edanssandes/MASA-Serial): This is a simple extension that runs with serial CPU code.
 

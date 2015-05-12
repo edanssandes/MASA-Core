@@ -14,7 +14,7 @@ The MASA-Core library is based on CUDAlign, a tool able to align huge sequences 
 The MASA-Core contains the following main features:
 * Produces optimal alignments for DNA sequences of any length (even greater than 200 MBP);
 * Based on Smith-Waterman and Needleman-Wunsch algorithms;
-* Uses Myers-Miller strategy during the matrix computation (linear memory complexity).
+* Uses Myers-Miller strategy during the matrix computation (linear memory complexity);
 * Produces Local, Semi-Global and Global optimal alignments;
 * Multi-node support for homogeneous [CCGRID2014] and heterogeneous hardware [PPOPP2014];
 * Block Pruning optimization [TPDS2012];
@@ -38,7 +38,7 @@ To create MASA executable files, download one of the extensions listed below. Ea
 ### Supported Platforms:
 
 Each project that supplies a different Aligner linked with MASA-Core is called a MASA-Extension. Here is a list with some MASA-Extensions for some supported platforms.
-* [**MASA-CUDAlign**](https://github.com/edanssandes/MASA-CUDAlign): Extension that uses [CUDA](http://www.nvidia.com/object/cuda_home_new.html) NVidia GPUs (based on the original CUDAlign code) 
+* [**MASA-CUDAlign**](https://github.com/edanssandes/MASA-CUDAlign): Extension that uses [CUDA](http://www.nvidia.com/object/cuda_home_new.html) NVidia GPUs (based on the original CUDAlign code).
 * [**MASA-OpenMP**](https://github.com/edanssandes/MASA-OpenMP): Uses [OpenMP](http://openmp.org/) to computes many blocks in parallel using CPU or Intel Phi cores.
 * [**MASA-OmpSs**](https://github.com/edanssandes/MASA-OmpSs): Uses [OmpSs](https://pm.bsc.es/ompss) to run parallel tasks respecting dependencies.
 * [**MASA-Serial**](https://github.com/edanssandes/MASA-Serial): This is a simple extension that runs with serial CPU code.

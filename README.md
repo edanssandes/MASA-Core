@@ -9,9 +9,9 @@
 The MASA-Core library is based on CUDAlign, a tool able to align huge sequences in CUDA capable GPUs. The MASA-Core contains 90% of the original CUDAlign source code, isolating the platform-independent features. Thus, any developer may create "aligners" for different hardware/software platforms, reimplementing only some methods of the original code and linking it against the portable MASA-Core library. Furthermore, new platform-independent optimizations may be deployed into the MASA-Core, leading to a wider contribution to all the specific aligners implementations. Platform-specific aligners will be maintained in separate repositories, with a static copy of the masa-core source.
 </p>
 
-### Features:
+### Main Features:
 
-The MASA-Core contains the following main features:
+The MASA-Core contains the following features:
 * Produces optimal alignments for DNA sequences of any length (even greater than 200 MBP)
 * Based on Smith-Waterman and Needleman-Wunsch algorithms
 * Uses Myers-Miller strategy during the matrix computation (linear memory complexity)<sup>[IPDPS2011](#references)</sup>

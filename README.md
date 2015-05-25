@@ -57,7 +57,7 @@ See the [doxygen](http://edanssandes.github.io/MASA-Core/docs) pages.
 
 ### License:
 
-MASA-Core is an open source project with public license (GPLv3). A copy of the [LICENSE](https://raw.githubusercontent.com/edanssandes/masa-core/master/LICENSE) is maintained in this repository. 
+MASA-Core is an open source project with public license (GPLv3). A copy of the [LICENSE](https://raw.githubusercontent.com/edanssandes/masa-core/master/LICENSE) is maintained in this repository.
 
 ---
 

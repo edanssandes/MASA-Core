@@ -65,6 +65,15 @@ MASA-Core is an open source project with public license (GPLv3). A copy of the [
 
 <table border="0">
 <tr>
+<td><a href="http://dx.doi.org/10.1145/2858656"><font size=1>[TOPC2016]</font></a></td>
+<td><sub>MASA: a Multi-Platform Architecture for Sequence Aligners with Block Pruning. TOPC:2(4):28. Edans Sandes, Guillermo Miranda, Xavier Martorell, Eduard Ayguadé, George Teodoro, Alba Melo.
+</tr>
+<tr>
+<td><a href="http://dx.doi.org/10.1109/TPDS.2016.2515597"><font size=1>[TPDS2016]</font></a></td>
+<td><sub>Genome Wide Alignment in GPU Cluster with Incremental Speculative Traceback. TPDS 2016. Edans Sandes, Guillermo Miranda, Alba Melo, Xavier Martorell, Eduard Ayguadé.</sub>
+</td>
+</tr>
+<tr>
 <td><a href="http://dx.doi.org/10.1109/CCGrid.2014.18"><font size=1>[CCGRID2014]</font></a></td>
 <td><sub>CUDAlign 3.0: Parallel Biological Sequence Comparison in Large GPU Clusters. CCGRID 2014:160-169. Edans Sandes, Guillermo Miranda, Alba Melo, Xavier Martorell, Eduard Ayguadé.</sub>
 </td>

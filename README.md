@@ -22,13 +22,13 @@ The MASA-Core contains the following features:
 
 ### Download
 
-Latest Version: [masa-core-1.3.9.1024.tar.gz](releases/masa-core-1.3.9.1024.tar.gz?raw=true)
+Latest Version: [masa-core-1.4.2.1028.tar.gz](releases/masa-core-1.4.2.1028.tar.gz?raw=true)
 
 ### Compiling the static library (libmasa.a)
 
 ```
-tar -xvzf masa-core-1.3.9.1024.tar.gz
-cd masa-core-1.3.9.1024
+tar -xvzf masa-core-1.4.2.1028.tar.gz
+cd masa-core-1.4.2.1028
 ./configure
 make
 ```
@@ -64,6 +64,14 @@ MASA-Core is an open source project with public license (GPLv3). A copy of the [
 ### References:
 
 <table border="0">
+<tr>
+<td><a href="https://doi.org/10.1002/cpe.5039"><font size=1>[CCPE2019]</font></a></td>
+<td><sub>MASA-OpenCL: Parallel pruned comparison of long {DNA} sequences with OpenCL. CCPE 2019:(31):11. Marco Figueiredo, Edans Sandes, Genaina Rodrigues, George Teodoro, Alba Melo</sub></td>
+</tr>
+<tr>
+<td><a href="https://doi.org/10.1089/cmb.2019.0031"><font size=1>[JCB2019]</font></a></td>
+<td><sub>Using Multiple Fickett Bands to Accelerate Biological Sequence Comparisons. JCB 2019: 908-922. Gabriel Silva, Edans Sandes, George Teodoro, Alba Melo</sub></td>
+</tr>
 <tr>
 <td><a href="http://dx.doi.org/10.1145/2858656"><font size=1>[TOPC2016]</font></a></td>
 <td><sub>MASA: a Multi-Platform Architecture for Sequence Aligners with Block Pruning. TOPC:2(4):28. Edans Sandes, Guillermo Miranda, Xavier Martorell, Eduard Ayguadé, George Teodoro, Alba Melo.

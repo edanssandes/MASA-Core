@@ -18,6 +18,7 @@ The MASA-Core contains the following features:
 * Produces Local, Semi-Global and Global optimal alignments
 * Multi-node support for homogeneous<sup>[CCGRID2014](#references)</sup> and heterogeneous hardware<sup>[PPOPP2014](#references)</sup>
 * Block Pruning optimization<sup>[TPDS2012](#references)</sup>
+* Multiple Fickett Band optimation<sup>[JCB2019](#references)</sup>
 * Portable C/C++ code. Compiled in Linux and MacOS X, for 32 and 64 bit platforms
 
 ### Download
@@ -42,7 +43,7 @@ Each project that supplies a different Aligner linked with MASA-Core is called a
 * [**MASA-OpenMP**](https://github.com/edanssandes/MASA-OpenMP): Uses [OpenMP](http://openmp.org/) to computes many blocks in parallel using CPU or Intel Phi cores
 * [**MASA-OmpSs**](https://github.com/edanssandes/MASA-OmpSs): Uses [OmpSs](https://pm.bsc.es/ompss) to run parallel tasks respecting dependencies
 * [**MASA-Serial**](https://github.com/edanssandes/MASA-Serial): This is a simple extension that runs with serial CPU code
-
+* [**MASA-OpenCL**](https://github.com/Marcoacfbr/MASA-OpenCL): Extension for [OpenCL](https://www.khronos.org/opencl/) devices (CPU or GPU)<sup>[CCPE2019](#references)</sup>
 
 ### Executing a MASA extension
 
@@ -64,6 +65,10 @@ MASA-Core is an open source project with public license (GPLv3). A copy of the [
 ### References:
 
 <table border="0">
+  <tr>
+<td><a href="https://doi.org/10.1089/cmb.2019.0031"><font size=1>[JCB2019]</font></a></td>
+<td><sub>Using Multiple Fickett Bands to Accelerate Biological Sequence Comparisons. JCB 2019: 908-922. Gabriel Silva, Edans Sandes, George Teodoro, Alba Melo</sub></td>
+</tr>
 <tr>
 <td><a href="https://doi.org/10.1002/cpe.5039"><font size=1>[CCPE2019]</font></a></td>
 <td><sub>MASA-OpenCL: Parallel pruned comparison of long {DNA} sequences with OpenCL. CCPE 2019:(31):11. Marco Figueiredo, Edans Sandes, Genaina Rodrigues, George Teodoro, Alba Melo</sub></td>
